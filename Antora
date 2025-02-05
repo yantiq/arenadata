@@ -12,5 +12,5 @@ output:
 
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/yantiq/arendata/antora-ui-bundle.git
     snapshot: true

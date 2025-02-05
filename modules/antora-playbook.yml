@@ -1,0 +1,16 @@
+site:
+  title: Arenadata
+  start_page: arenadata::index.adoc
+
+content:
+  sources:
+    - url: https://github.com/yantiq/arenadata.git
+      branches: main
+
+output:
+  dir: ./public
+
+ui:
+  bundle:
+    url: https://github.com/yantiq/antora-ui-bundle.git
+    snapshot: true

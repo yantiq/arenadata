@@ -1,6 +1,6 @@
 = Управление индексами
 
-Адаптированный перевод с английского на русский язык link:https://opensearch.org/docs/latest/im-plugin/[OpenSearch Docs^]
+Адаптированный перевод с английского на русский язык link:https://opensearch.org/docs/latest/im-plugin/[OpenSearch Docs^].
 
 Существует два способа индексации данных в OpenSearch с помощью REST API:
 
@@ -62,7 +62,7 @@ curl -H "Content-Type: application/x-ndjson" -POST https://localhost:9200/data/_
 ```
 
 Если одна из операций в `_bulk API` завершится ошибкой, OpenSearch продолжит выполнение остальных операций.
-Проверьте `items`, чтобы выяснить причину ошибки.
+Проверьте массив `items`, чтобы выяснить причину ошибки.
 
 === Автоматическое создание индекса
 
